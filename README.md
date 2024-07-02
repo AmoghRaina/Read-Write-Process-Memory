@@ -33,7 +33,7 @@ Before starting, ensure you have the following installed:<br>
 Build these files in Qt Creator <br>
 Once built, open the release/debug folder and run the executable.
 
-**Features and Functionality**
+** Features and Functionality**
 -   **Process Management**
     
     -   **Process Search:** Allows the user to enter the name of a process and search for it in the system.
@@ -58,4 +58,26 @@ Once built, open the release/debug folder and run the executable.
 -   **Visual Customization**
     
     -   **Theme Customization:** Provides two predefined themes (`dark` and `purple`) that alter the visual appearance of the application's UI elements.
-- 
+### Usage Scenarios
+
+-   **Monitoring and Modifying Memory:**
+    
+    -   Users can attach to a specific process (e.g., a game or application).
+    -   They can then monitor and potentially modify memory values to interact with or manipulate the behavior of the attached process.
+-   **System Resource Management:**
+    
+    -   Allows users to manage system resources by observing memory usage and potentially altering it based on application needs.
+-   **Educational and Debugging Purposes:**
+    
+    -   Useful for educational purposes to understand how processes and memory management work within the Windows environment.
+    -   Helps in debugging applications by inspecting and modifying memory contents during runtime.
+
+### Considerations
+
+-   **Security and Permissions:**
+    
+    -   Ensure that the application runs with appropriate permissions to access and modify the memory of other processes.
+    -   Consider security implications and potential system stability risks associated with modifying process memory.
+-   **User Experience (UX):**
+    
+    -   Continuously refine UI elements and feedback mechanisms to enhance user experience, such as clearer error messages and visual indicators of process status.
