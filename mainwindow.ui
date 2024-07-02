@@ -544,7 +544,7 @@ background-color: rgb(58, 14, 61);
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius:5px;
-</string>
+background-color: rgb(50, 12, 49);</string>
     </property>
     <property name="frame">
      <bool>true</bool>
