@@ -3,12 +3,12 @@
 # Memory Editor GUI Application
 
 ## This Qt-based application allows users to monitor and modify memory values of running processes on Windows.<br>
-** Key features include:**
+**Key features include:**
 
-- **Process Identification**: Uses `CreateToolhelp32Snapshot` to find and identify processes by name entered via a QLineEdit.
+- **Process Identification**: Uses `CreateToolhelp32Snapshot` to find and identify processes by name entered via user.
 - **Memory Reading**: Reads and displays memory values at specified offsets within the identified process.
 - **Memory Writing**: Enables users to modify memory values and provides feedback on the success or failure of write operations.
-- **GUI Theming**: Supports two themes ("darkest" and default) selectable via QComboBox, altering the application's appearance for user preference.
+- **GUI Theming**: Supports two themes ("dark" and "purple") selectable in ui, altering the application's appearance for user preference.
 - **Error Handling**: Provides detailed error messages for failed memory operations and process identification.
 - **Disabled State Styling**: Disables UI elements and applies a subdued color scheme to indicate non-functional states.
 
@@ -24,7 +24,7 @@ This application serves as a versatile tool for developers and enthusiasts needi
 
 
 ### Usage guide for this application:
-**Welcome to the usage guide for this project. This guide will walk you through the features and functionality of the application.**<br>
+**Welcome to the usage guide for this project. This guide will walk you through the features and functionality of the application.** <br>
 **Prerequisites**<br>
 Before starting, ensure you have the following installed:<br>
 - Qt development environment (version 6.0 or higher)
@@ -34,7 +34,7 @@ Before starting, ensure you have the following installed:<br>
 Build these files in Qt Creator <br>
 Once built, open the release/debug folder and run the executable.
 
-** Features and Functionality**
+### Features and Functionality <br>
 -   **Process Management**
     
     -   **Process Search:** Allows the user to enter the name of a process and search for it in the system.
