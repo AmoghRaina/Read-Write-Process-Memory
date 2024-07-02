@@ -9,5 +9,6 @@ int main(int argc, char *argv[])
 
     w.setWindowTitle("Project-RWPM");
     w.show();
+    w.setWindowIcon(QIcon(":/logo/Resources/file.ico"));
     return app.exec();
 }
