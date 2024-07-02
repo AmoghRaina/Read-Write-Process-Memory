@@ -1,6 +1,7 @@
+
 # Memory Editor GUI Application
 
-##This Qt-based application allows users to monitor and modify memory values of running processes on Windows.<br> Key features include:
+## This Qt-based application allows users to monitor and modify memory values of running processes on Windows.<br> Key features include:
 
 - **Process Identification**: Uses `CreateToolhelp32Snapshot` to find and identify processes by name entered via a QLineEdit.
 - **Memory Reading**: Reads and displays memory values at specified offsets within the identified process.
@@ -10,3 +11,12 @@
 - **Disabled State Styling**: Disables UI elements and applies a subdued color scheme to indicate non-functional states.
 
 This application serves as a versatile tool for developers and enthusiasts needing to interact with and manipulate memory contents of Windows processes through a user-friendly interface.
+
+**It comes with 2 themes-**
+
+- Black(legacy)
+![gif1](https://github.com/AmoghRaina/Read-Write-Process-Memory/assets/116047470/c7eb2dc3-b651-40a1-b98e-29727f996903)
+
+- Purple-
+![gif2](https://github.com/AmoghRaina/Read-Write-Process-Memory/assets/116047470/bbf29274-fb45-4873-b2ef-63c2c6f5d773)
+
