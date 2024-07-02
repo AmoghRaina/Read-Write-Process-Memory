@@ -1,4 +1,5 @@
 
+
 # Memory Editor GUI Application
 
 ## This Qt-based application allows users to monitor and modify memory values of running processes on Windows.<br> Key features include:
@@ -17,7 +18,44 @@ This application serves as a versatile tool for developers and enthusiasts needi
 - Black(legacy)<br>
 ![gif1](https://github.com/AmoghRaina/Read-Write-Process-Memory/assets/116047470/c7eb2dc3-b651-40a1-b98e-29727f996903)
 
-- Purple-<br>
+- Purple<br>
 ![gif2](https://github.com/AmoghRaina/Read-Write-Process-Memory/assets/116047470/bbf29274-fb45-4873-b2ef-63c2c6f5d773)
 
 
+### Usage guide for this application:
+**Welcome to the usage guide for this project. This guide will walk you through the features and functionality of the application.**<br>
+**Prerequisites**<br>
+Before starting, ensure you have the following installed:<br>
+- Qt development environment (version 6.0 or higher)
+- C++ compiler 
+- Git (optional, for version control)
+
+Build these files in Qt Creator <br>
+Once built, open the release/debug folder and run the executable.
+
+**Features and Functionality**
+-   **Process Management**
+    
+    -   **Process Search:** Allows the user to enter the name of a process and search for it in the system.
+    -   **Process Attachment:** Upon finding the specified process, the application attaches to it using its process ID .
+    -   **Process ID Display:** Displays the ID of the attached process .
+-   **Memory Interaction**
+    
+    -   **Memory Reading:** Reads the memory of the attached process at specified offsets  using `ReadProcessMemory` .
+    -   **Memory Writing:** Writes data to the memory of the attached process at specified offsets using `WriteProcessMemory`.
+-   **User Interface (UI)**
+    
+    -   **Dynamic UI Updates:** Updates UI elements based on process attachment and memory operations.
+    -   **Theme Selection:** Allows the user to switch between two themes (`dark` and `purple`). Themes affect the background and styling of UI elements.
+-   **Error Handling**
+    
+    -   **Error Display:** Displays error messages when there are issues with process attachment or memory operations.
+    -   **Error Codes:** Retrieves and displays system error codes (`GetLastError()`) for detailed error reporting.
+-   **User Interaction**
+    
+    -   **Button Actions:** Executes actions (reading, writing) when corresponding buttons are clicked.
+    -   **Input Validation:** Validates user inputs for memory offsets and values before performing memory operations.
+-   **Visual Customization**
+    
+    -   **Theme Customization:** Provides two predefined themes (`dark` and `purple`) that alter the visual appearance of the application's UI elements.
+- 
