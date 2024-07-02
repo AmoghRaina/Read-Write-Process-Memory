@@ -16,8 +16,8 @@ This application serves as a versatile tool for developers and enthusiasts needi
 
 - Black(legacy)<br>
 ![gif1](https://github.com/AmoghRaina/Read-Write-Process-Memory/assets/116047470/c7eb2dc3-b651-40a1-b98e-29727f996903)
-<br>
+
 - Purple-<br>
 ![gif2](https://github.com/AmoghRaina/Read-Write-Process-Memory/assets/116047470/bbf29274-fb45-4873-b2ef-63c2c6f5d773)
 
-<br>
+
