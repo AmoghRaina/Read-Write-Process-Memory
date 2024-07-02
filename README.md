@@ -2,7 +2,8 @@
 
 # Memory Editor GUI Application
 
-## This Qt-based application allows users to monitor and modify memory values of running processes on Windows.<br> Key features include:
+## This Qt-based application allows users to monitor and modify memory values of running processes on Windows.<br>
+** Key features include:**
 
 - **Process Identification**: Uses `CreateToolhelp32Snapshot` to find and identify processes by name entered via a QLineEdit.
 - **Memory Reading**: Reads and displays memory values at specified offsets within the identified process.
