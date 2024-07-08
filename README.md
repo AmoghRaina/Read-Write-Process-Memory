@@ -79,6 +79,3 @@ Once built, open the release/debug folder and run the executable.
     
     -   Ensure that the application runs with appropriate permissions to access and modify the memory of other processes.
     -   Consider security implications and potential system stability risks associated with modifying process memory.
--   **User Experience (UX):**
-    
-    -   Continuously refine UI elements and feedback mechanisms to enhance user experience, such as clearer error messages and visual indicators of process status.
